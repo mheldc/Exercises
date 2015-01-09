@@ -1,0 +1,41 @@
+body {font-family: Calibri; font-size: 12px;}
+
+/* Button */
+.chat-sender {font-family: Calibri; height: 100%; width:17%; right: 0; vertical-align: top;}
+
+div {font-family: Calibri;}
+#cInfo {border: 1px solid Red;top: 0; height: 32px;}
+#cBox {border: 1px solid Green; top: 33px;height: 250px;}
+#cSender {border: 1px solid brown; bottom: 400px;}
+.chat-msg-holder {}
+.gm-box {border: 1px solid black; height: auto; position: relative; margin-top: 5px; display: flex;}
+.icon-holder {border: 1px solid gray; float: left; margin-right: 3px;}
+.msg-holder {float: left; width: 85%; right: 0;}
+
+/* Images */
+.user-avatar {border-radius: 3px 3px 3px 3px;}
+
+/* Labels */
+.user-info {}
+
+/* Lists */
+.gms {list-style: none; padding:0px 3px 0px 3px;}
+
+/* Tables */
+.chat-ui {height: inherit; width: inherit; border: 1px solid Silver;}
+
+/* Table Data */
+
+/* Table Rows */
+.channel-info {height: 24px; text-align: center; vertical-align: middle;}
+.chat-box {height: 70%; vertical-align: top;}
+.chat-data {height: 46px;}
+
+/* Text Area */
+.msg-data {height: 100%; width: 80%;}
+
+/* Unordered Lists */
+.chat-msgs {ul {padding: 0; list-style-type: none; visibility: }
+
+
+
