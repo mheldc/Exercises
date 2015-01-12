@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <link rel="stylesheet" href="/javascripts/gchatv2/gchatv2.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>-->
+    <script src="/javascripts/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="/javascripts/gchatv2/gchatv2.js"></script>
+
+    <script>
+        $(function(){
+            //$('#chatholder').initChatBox(prompt('Keyin Channel'),prompt('Keyin User'),'%%@&&#%$*%%');
+            //$('#chatholder').loadChatBox('ChannelX', 'UserY','TokenZ');
+            //var args = '{"channel" : "Channel XXX", ' +
+            //           ' "user" : "User001", ' +
+            //           ' "gravatar_email" : "someemail@email.com"}';
+            //$('#chatholder').sample(args);
+            //$('#chatholder').appendHTML($('#chatContainerTpl').innerHTML);
+            var userinfo = '{"user_id":18, "username":"admin234","links":{"avatar":"http://community.gamers.tm/zh/data/avatars/m/0/18.jpg?1412800323","detail":"http://community.gamers.tm/zh/api/index.php?users/18/&oauth_token=bc0a1292d75b9769e2bbf9cbaf82d746"}, ' +
+                           '"access_code":"54eaac3275b55e9679700bf7f000d22a2ccdc86b"}';
+            
+            var channelinfo = '{"id" : "YT54qdGeiH0Og", "title" : "Selfie"}';
+            
+            $('#chatholder-1').initChatBox(channelinfo, userinfo);
+        });
+    </script>
+    <body>
+        <div id="chatholder-1" style="height: 1000px; width: 500px;">
+            
+        </div>
+        
+        <script type="text/html" id="chatui">
+          <div id="chid-{cid}" class="chid">{cid}</div>
+          <div id="chcontainer-{cid}" class="chcontainer">
+              <table id="tblchatmsgs-{cid}" class="tblchatmsgs">
+              </table>
+          </div>
+          <div id="chatinputs-{cid}" class="chatinputs"> 
+              <input type="text" id="msgs-{cid}" class="msgs">
+              <button id="btn-{cid}" class="btnSend">SEND</button>
+          </div>	
+        </script>
+        <script type="text/html" id="gchatnotify">
+          <tr id="trnotify-{cid}">
+              <td>
+                  <div class="notifier">
+                      <p id="notifymsg-{cid}" class="message">{gchat-message}</p>
+                  </div>
+              </td>
+          </tr>    
+        </script>
+        <script type="text/html" id="chatms">
+          <tr id="trms-{cid}">
+              <td>
+                  <div id="usericon-{cid}" class="usericon">
+                      <img id="uavatar-{cid}" class="uavatar" alt="userimage" height="46px" width="46px" src="{avatar}">
+                  </div>
+                  <div id="chat-message-{cid}" class="chat-message">
+                      <label id="uname">{username}</label>
+                      <p id="imsg" class="message">{message}</p>
+                      <label id="timestamp-{cid}" class="timestamp">{timesent}</label>
+                  </div>           
+              </td>
+          </tr>
+        </script>
+        
+    </body>
+
