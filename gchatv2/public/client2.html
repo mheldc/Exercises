@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<style type="text/css">
+    div.chat-container{
+        height: 100%;
+        width: 100%;
+        border: 1px solid green;
+        padding-top: 1em;
+        overflow-y: auto;
+    }
+    div.usericon{
+        border: 1px solid gray;
+        border-radius: 7px 7px 7px 7px;
+        height: 48px;
+        width: 48px;
+        float: left;
+        margin-right: 2px;
+        margin-left: 1em;
+    }
+    div.chat-message{
+        border: 1px solid gray;
+        border-radius: 7px 7px 7px 7px;
+        height: auto;
+        width: 90%;
+        float: left;
+        font-family: Calibri;
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    div.msgborder{width: 95%; border: 1px solid yellow; height: auto;}
+    div.channel-header{width: 100%; height: auto; border-radius: 7px 7px 0px 0px; border: 1px solid gray; text-align: center;}
+    p.message{margin-left: 5px; margin-right: 3px;}
+    label.timestamp{text-align: right; float: right; color: gray; font-size: 11px; padding-right: 1em; padding-bottom: 3px;}
+    
+</style>
+<div id="chat-box">
+    <div class="channel-header">
+        <p> Channel 1 </p>
+    </div>
+    <div class="chat-container">
+        <table>
+            <tr>
+                <td>
+                    <div class="usericon">
+                        <img alt="userimage" src="file:///D:/JsProjects/Projects/anyTVProjects/gchatv2/public/images/administrator.png" height="46px" width="46px">
+                    </div>
+                    <div class="chat-message">
+                        <p class="message">
+                            This is a simple chat message with profile picture.
+                            The quick brown fox jumps over the lazy dog.
+                            This is a simple chat message with profile picture.
+                            The quick brown fox jumps over the lazy dog.
+                            This is a simple chat message with profile picture.
+                            The quick brown fox jumps over the lazy dog.
+                            This is a simple chat message with profile picture.
+                            The quick brown fox jumps over the lazy dog.
+                        </p>
+                        <label class="timestamp">Sent @ 12:27PM</label>
+                    </div>           
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+

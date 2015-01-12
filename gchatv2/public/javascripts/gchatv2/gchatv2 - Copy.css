@@ -1,0 +1,124 @@
+body{font-family: Calibri; font-size: 14px;}
+
+#chid{
+    height: 25px;
+    border: 2px solid gray;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 7px 7px 0px 0px;
+    border-bottom: 0px none transparent;
+    background-color: #F8F8F8;
+    font-weight: bolder;
+}
+
+#chcontainer{
+    height: 70%;
+    border:2px solid gray;
+    overflow-style: scroll;
+    overflow-y: scroll;
+    padding-top:7px;
+    background-color: #F8F8F8;
+}
+
+#uname{
+    font-family:Calibri;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+div.usericon{
+    border: 0px solid gray;
+    border-radius: 7px 7px 7px 7px;
+    height: 48px;
+    width: 48px;
+    float: left;
+    margin-right: 2px;
+    margin-left: 1em;
+}
+div.chat-message{
+    border: 1px solid gray;
+    border-radius: 7px 7px 7px 7px;
+    height: auto;
+    width: 78%;
+    float: left;
+    font-family: Calibri;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+div.msgborder{
+    width: 95%;
+    border: 1px solid yellow;
+    height: auto;
+}
+div.notifier{
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+}
+
+#imsg{
+    margin-left: 5px;
+    margin-right: 3px;
+    margin-top:0px;
+    margin-bottom: 3px;
+    white-space: pre-line;
+    font-size: 14px;
+}
+label.timestamp{
+    text-align: right;
+    float: right;
+    color: gray;
+    font-size: 11px;
+    padding-right: 1em;
+    padding-bottom: 3px;
+}
+textarea {
+    width: 77%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+button{
+    width: 17%;
+    height: 40px;
+    float:right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+td{vertical-align: top;}
+
+img{border: 0px !important;}
+
+#chatinputs{
+    height: auto;
+    border: 2px solid gray;
+    border-top: 0px none transparent;
+    padding-top: 2px;
+    background-color: #F8F8F8;
+}
+
+#tblchatmsgs{
+    width: 100%;
+    height: auto;
+}
+
+#btnSend{
+    border-radius: 7px 0px 7px 0px;
+    border : 1px solid gray;
+    background-color: #F8F8F8;
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: 1.2em;
+    font-weight: bolder;
+    height: 52px;
+}
+
+#msgs{
+    font-family: Calibri;
+    font-size: 1em;
+    border-radius: 7px 0px 7px 0px;
+    height: 50px;
+}
+img{border-radius: 5px 5px 5px 5px;}
+

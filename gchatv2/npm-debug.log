@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'info',
+1 verbose cli   'help' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose request where is /help
+6 verbose request registry https://registry.npmjs.org/
+7 verbose request id 8e055b1b32cd4975
+8 verbose url raw /help
+9 verbose url resolving [ 'https://registry.npmjs.org/', './help' ]
+10 verbose url resolved https://registry.npmjs.org/help
+11 verbose request where is https://registry.npmjs.org/help
+12 info trying registry request attempt 1 at 12:06:59
+13 http GET https://registry.npmjs.org/help
+14 http 404 https://registry.npmjs.org/help
+15 silly registry.get cb [ 404,
+15 silly registry.get   { date: 'Wed, 05 Nov 2014 04:07:05 GMT',
+15 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+15 silly registry.get     etag: '"2GNHJP78P97I8RQUGNW9LRTKL"',
+15 silly registry.get     'content-type': 'application/json',
+15 silly registry.get     'cache-control': 'max-age=0',
+15 silly registry.get     'content-length': '411',
+15 silly registry.get     'accept-ranges': 'bytes',
+15 silly registry.get     via: '1.1 varnish',
+15 silly registry.get     age: '0',
+15 silly registry.get     'x-served-by': 'cache-hk92-HKG',
+15 silly registry.get     'x-cache': 'MISS',
+15 silly registry.get     'x-cache-hits': '0',
+15 silly registry.get     'x-timer': 'S1415160424.521406,VS0,VE637',
+15 silly registry.get     vary: 'Accept',
+15 silly registry.get     'keep-alive': 'timeout=10, max=50',
+15 silly registry.get     connection: 'Keep-Alive' } ]
+16 error 404 Unpublished by npm on 2014-08-13T01:03:42.818Z
+16 error 404
+16 error 404 'help' is not in the npm registry.
+16 error 404 You should bug the author to publish it
+16 error 404
+16 error 404 Note that you can also install from a
+16 error 404 tarball, folder, or http url, or git url.
+17 error System Windows_NT 6.1.7600
+18 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "info" "help"
+19 error cwd D:\JsProjects\Projects\anyTVProjects\gchatv2
+20 error node -v v0.10.32
+21 error npm -v 1.4.28
+22 error code E404
+23 verbose exit [ 1, true ]

@@ -1,0 +1,172 @@
+body{font-family: Arial; font-size: 12px;}
+
+div.chid{
+    height: 25px;
+    /*border: 1px solid gray;*/
+    text-align: center;
+    padding-top: 7px;
+    /*border-radius: 7px 7px 0px 0px;*/
+    border-bottom: 0px none transparent;
+    background-color: #F0F0F0;
+    color:black;
+}
+
+div.chcontainer{
+    width: 99%;
+    border:0px none transparent;
+    border-top: 1px solid gray;
+    overflow-y: auto;
+    padding-top:7px;
+    padding-left: 1px;
+    background-color: #F0F0F0;
+    color:black;
+    position: absolute;
+    top: 66px;
+    bottom: 66px;
+}
+
+div.chcontainer_single{
+    border:0px none transparent;
+    border-top: 1px solid gray;
+    overflow-y: auto;
+    padding-top:7px;
+    padding-left: 1px;
+    background-color: #F0F0F0;
+    color:black;
+    position: absolute;
+    top: 33px;
+    bottom: 64px;
+    left:0;
+    right: 0;
+}
+
+#uname{
+    font-family:Calibri;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+div.usericon{
+    border: 0px solid gray;
+    /*border-radius: 7px 7px 7px 7px;*/
+    height: 48px;
+    width: 48px;
+    float: left;
+    margin-right: 2px;
+    margin-left: 1em;
+}
+div.chat-message{
+    border: 1px solid gray;
+    /*border-radius: 7px 7px 7px 7px;*/
+    height: auto;
+    width: 75%;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+div.msgborder{
+    width: 95%;
+    border: 1px solid yellow;
+    height: auto;
+}
+div.notifier{
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+}
+
+#imsg{
+    margin-left: 5px;
+    margin-right: 3px;
+    margin-top:0px;
+    margin-bottom: 3px;
+    white-space: normal;
+    line-height: normal;
+    font-size: 12px;
+}
+label.timestamp{
+    text-align: right;
+    float: right;
+    color: gray;
+    font-size: 11px;
+    padding-right: 1em;
+    padding-bottom: 3px;
+}
+input[type=text] {
+    width: 77%;
+    margin-left: 1%;
+    margin-top: 1%;
+    border:1px solid gray;
+    /*border-radius: 7px 0px 7px 0px;*/
+}
+button{
+    width: 17%;
+    height: 40px;
+    float:right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+td{vertical-align: top; min-width: 350px;}
+
+div.chatinputs{
+    clear: both;
+    bottom:0;
+    position: absolute;
+    height: 60px;
+    width: 99%;
+    border: 0px solid gray;
+    border-top: 1px solid gray;
+    padding-left:2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    float:left;
+    background-color: #F0F0F0 ;
+}
+
+div.chatinputs_single{
+    left: 0;
+    right: 0;
+    bottom:0;
+    position: absolute;
+    height: 60px;
+    border: 0px solid gray;
+    border-top: 1px solid gray;
+    padding-left:2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    float:left;
+    background-color: #F0F0F0 ;
+}
+
+#tblchatmsgs{
+    width: 100%;
+    height: auto;
+}
+
+button.btnSend{
+    /*border-radius: 7px 0px 7px 0px;*/
+    border : 1px solid gray;
+    background-color: #F0F0F0;
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: 1.2em;
+    font-weight: bolder;
+    height: 52px;
+}
+input[type=text].msgs{
+    font-family: Calibri;
+    font-size: 1em;
+    /*border-radius: 7px 0px 7px 0px;*/
+    height: 50px;
+}
+img.uavatar{border-radius: 5px 5px 5px 5px; border:1px solid gray;}
+
+p.message{font-size:12px; font-family: Arial; text-decoration: none;}
+
+span.spandex{ display: inline-block;
+              vertical-align: middle;
+              line-height: normal;
+              background-color: #F0F0F0;}

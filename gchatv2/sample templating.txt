@@ -1,0 +1,37 @@
+
+
+
+<!--<script type="text/html" id="chatContainerTpl">
+	<div class="gchat-container">
+		<div class="header">
+			{{CHANNEL_TITLE}}
+		</div>
+		<div class="body">
+                asdfasdfasdfasdfafas
+		</div>
+		<div class="chat-area">
+			<textarea></textarea>
+			<button>
+		</div>
+	</div>
+</script>
+
+<!--
+{
+	img_src: 'img link',
+	message: 'msg',
+	time:	'time'
+}
+-->
+<!--
+<script type="text/html" id="chatContentTpl">
+	<div class="chat-content">
+		<div class="img-container">
+			<img src="{{IMG_SRC}}" />
+		</div>
+		<div class="msg-container">
+			{{MESSAGE}}
+			<small class="sent">Sent @ {{TIME}}</small>
+		</div>
+	</div>
+</script>-->
